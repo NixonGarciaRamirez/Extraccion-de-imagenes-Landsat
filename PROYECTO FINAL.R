@@ -3,16 +3,16 @@ library(remotes)
 remotes::install_github("r-spatial/rgee") 
 
 library(reticulate)
-use_python("C:/Users/Usuario/AppData/Local/r-miniconda/envs/rgee/python.exe")
+use_python("Ubicacion de miniconda")
 reticulate:: py_config()
 
 
 library(rgee) 
-ee_clean_user_credentials('nixon12')
+ee_clean_user_credentials('Usuaeio de GEE')
 ee_users()
 ee_Authenticate() 
 
-ee_Initialize('nixon12',drive = T)
+ee_Initialize('Usuario de GEE',drive = T)
 library(googledrive)
 
 
