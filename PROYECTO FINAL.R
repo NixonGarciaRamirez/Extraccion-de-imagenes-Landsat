@@ -127,7 +127,7 @@ COLOR <- colorRampPalette(c('white','blue'))
 #GUARDAR EL RASTER GENERADO
 
 
-setwd('D:/NIXON/universidad/QGIS/curso de RGEE/PROYECTO')
+setwd('Ruta de guardado del proyecto')
 
 library(raster)
 
@@ -169,7 +169,7 @@ shape <- rasterToPolygons(RECLASIFICAR , dissolve = TRUE) %>% st_as_sf()
 
 plot(RECLASIFICAR)
 
-setwd('D:/NIXON/universidad/QGIS/curso de RGEE/PROYECTO/NDSI/')
+setwd('Ruta donde se guardaran las imagenes')
 
 
 writeRaster(RECLASIFICAR, '2022.tif')
