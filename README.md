@@ -1,4 +1,4 @@
-# Extraccion de imagenes Landsat y del  indice espectral de nieve 
+# Extraccion de imagenes Landsat y del  indice espectral de nieve  :earth_americas: :globe_with_meridians: :earth_asia:
 
 # Project description
 This project extracts raster images and also calculates the snow index using the rgee and mapedit libraries as a base. Within the script the user can find several sections which are divided as follows:
@@ -12,6 +12,11 @@ This project extracts raster images and also calculates the snow index using the
     • Saving generated rasters.
     • Calculation of the snow index using the Raster calculator method.
 
+Note: Remember to previously install the RGEE library
+¡[Introduction to RGEE with mastergis](https://www.youtube.com/watch?v=M2gjiMirLac)
+
+
+
 # Versión en español
 ## Descripcion del proyecto
 Este proyecto extrae imágenes raster y también calcula el indice de nieve empleando la librería rgee y mapedit como base. Dentro el script el usuario se puede encontrar con varias secciones las cuales se dividen de la siguiente forma:
@@ -24,3 +29,6 @@ Este proyecto extrae imágenes raster y también calcula el indice de nieve empl
     • Conversión del indice de nieve a formato Raster.
     • Guardar raster generados.
     • Calculo del indice de nieve usando el método de calculadora Raster.
+
+¡[Introduccion a RGEE con mastergis](https://www.youtube.com/watch?v=M2gjiMirLac)
+
